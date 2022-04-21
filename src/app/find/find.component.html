@@ -1,5 +1,22 @@
-<div>
+<body>
+    <h1>Github App</h1>
+    
+
+<div form>
     <input type="text" #ghubname name="ghubname" id="ghubname" placeholder="ghubname">
     <button (click)="findUser(ghubname.value)">search</button>
     
 </div>
+
+<div *ngIf="currentUser" class="users">
+    <img [src]="currentUser.avatar_url" alt="img" *ngIf="currentUser.avatar_url">
+    <p ngIf="currentUser.name">Name: {{currentUser.name}}</p>
+    <p ngIf="currentUser.bio">Bio: {{currentUser.bio}}</p>
+    <p ngIf="currentUser.followers">Followers: {{currentUser.followers}}</p>
+    <p ngIf="currentUser.following">following: {{currentUser.following}}</p>
+    <p ngIf="currentUser.login">Login: {{currentUser.login}}</p>
+  </div>
+  <p>
+      GithubApp allows you to search for github username as well as repositories. Find your users and repos!
+  </p>
+</body>
