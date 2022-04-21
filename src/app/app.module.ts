@@ -7,11 +7,13 @@ import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from './app.component';
 import { FindComponent } from './find/find.component';
+import { SearchRepoComponent } from './search-repo/search-repo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FindComponent
+    FindComponent,
+    SearchRepoComponent
   ],
   imports: [
     BrowserModule,

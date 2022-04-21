@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 // import { error } from 'console';
 import { GhubService } from '../services/ghub.service';
 import { User } from '../User';
+import { Repo } from "../Repo";
 
 @Component({
   selector: 'app-find',
@@ -10,11 +11,16 @@ import { User } from '../User';
 })
 export class FindComponent implements OnInit {
   currentUser!:User;
+  userName! :string;
+  userRepos!: Repo[]
+  allRepos!: Repo[]
 
   constructor(private ghubService:GhubService) { }
 
   ngOnInit(): void {
   }
+
+  
 
   findUser(ghubname:string){
     this.ghubService.findUser(ghubname).then(()=>{
