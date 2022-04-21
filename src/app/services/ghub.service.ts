@@ -20,14 +20,21 @@ findUser(ghubname:string){
         Authorization:"token ${environment.access_token}"
       }
     }).subscribe({
-      next:()=>{
+      next:(res:any)=>{
+        this.user=res;
+        console.log(res)
+        resolve()
 
       },
-      error:()=>{
+      error:(error:any)=>{
+
+        console.log(error)
 
       },
       complete:()=>{
-        
+
+        console.log("completed")
+
       }
 
     })
