@@ -6,10 +6,12 @@ import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from './app.component';
+import { FindComponent } from './find/find.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FindComponent
   ],
   imports: [
     BrowserModule,
