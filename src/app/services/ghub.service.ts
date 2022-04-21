@@ -23,6 +23,9 @@ findUser(ghubname:string){
       next:()=>{
 
       },
+      error:()=>{
+
+      },
 
     })
   })
