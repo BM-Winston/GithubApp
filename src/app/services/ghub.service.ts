@@ -29,6 +29,7 @@ findUser(ghubname:string){
       error:(error:any)=>{
 
         console.log(error)
+        reject(error)
 
       },
       complete:()=>{
@@ -39,6 +40,8 @@ findUser(ghubname:string){
 
     })
   })
+
+  return promise;
 
 }
 
