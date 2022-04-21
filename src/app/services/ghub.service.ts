@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { rejects } from 'assert';
+import { resolve } from 'dns';
 import { User } from "../User";
 
 
@@ -10,8 +12,9 @@ export class GhubService {
   user!:User;
 
   constructor(private http:HttpClient) { }
-  
+
 findUser(ghubname:string){
+  const promise=new Promise<void>((resolve,reject)=>{})
 
 }
 
