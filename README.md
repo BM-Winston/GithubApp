@@ -2,7 +2,7 @@
 
 #This app allows users to search for repositories and username of github.
 
-# Portfolio
+
 
 ##### By Winston Musasia
 ### It is a description of about a web app that allows users to search for username and repositories of github.
