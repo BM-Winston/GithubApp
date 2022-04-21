@@ -18,7 +18,7 @@ findUser(ghubname:string){
   const promise=new Promise<void>((resolve,reject)=>{
     this.http.get<User>(`${environment.base_url}${ghubname}`,{
       headers:{
-        Authorization:`token ${environment.access_token}`
+        Authorization:` ${environment.access_token}`
       }
     }).subscribe({
       next:(res:any)=>{
@@ -35,7 +35,7 @@ findUser(ghubname:string){
       },
       complete:()=>{
 
-        console.log("completed")
+        // console.log(completed)
 
       }
 

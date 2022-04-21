@@ -1,27 +1,73 @@
 # GithubApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+#This app allows users to search for repositories and username of github.
 
-## Development server
+# Portfolio
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+##### By Winston Musasia
+### It is a description of about a web app that allows users to search for username and repositories of github.
 
-## Code scaffolding
+## Table of Content
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
++ [Description](#description)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
 
-## Build
+## Description
+<p>It is a description of about a web app that allows users to search for username and repositories of github.</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+### Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Either a computer,phone,tablet or an Ipad
 
-## Running end-to-end tests
+* An access to the Internet
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Installation Process
 
-## Further help
+[Go Back to the top](#portfolio)
+## Technology Used
+* HTML - which was used to build the structure of the pages.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* CSS - which was used to style the pages incuding the left aside navigation bar
+
+* TypeScript 
+
+## Reference
+* Materialize CSS
+
+[Go Back to the top]
+
+## Licence
+
+MIT License
+
+Copyright (c) [2022] [Winston Musasia]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Go Back to the top]
+
+## Authors Info
+
+# Winston Musasia
