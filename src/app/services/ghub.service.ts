@@ -14,7 +14,15 @@ export class GhubService {
   constructor(private http:HttpClient) { }
 
 findUser(ghubname:string){
-  const promise=new Promise<void>((resolve,reject)=>{})
+  const promise=new Promise<void>((resolve,reject)=>{
+    this.http.get<User>(`$(environment.base_url)${ghubname}`,{
+      headers:{
+        Authorization:"token ${environment.access_token}"
+      }
+    }).subscribe({
+      
+    })
+  })
 
 }
 
