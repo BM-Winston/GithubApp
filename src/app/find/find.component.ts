@@ -12,4 +12,8 @@ export class FindComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  findUser(ghubname:string){
+
+  }
+
 }
