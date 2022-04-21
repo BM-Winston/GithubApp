@@ -10,4 +10,9 @@ export class GhubService {
   user!:User;
 
   constructor(private http:HttpClient) { }
+  
+findUser(ghubname:string){
+
+}
+
 }
