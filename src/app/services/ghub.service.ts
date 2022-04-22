@@ -19,7 +19,7 @@ export class GhubService {
   constructor(private http: HttpClient) {}
   myOptions = {
     headers: new HttpHeaders({
-      Authorization: `token ${environment.access_token}`,
+      Authorization: `token ${atob(environment.access_token)}`,
     }),
   };
 
@@ -28,7 +28,7 @@ export class GhubService {
       this.http
         .get<User>(`${environment.base_url}${ghubname}`, {
           headers: {
-            Authorization: ` ${environment.access_token}`,
+            Authorization: ` ${atob(environment.access_token)}`,
           },
         })
         .subscribe({
